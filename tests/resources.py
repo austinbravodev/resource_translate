@@ -1,4 +1,4 @@
-from src import Translator, attr
+from resource_translate import Translator, attr
 
 
 class PersonFromObj(Translator):
