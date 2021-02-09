@@ -13,11 +13,6 @@ Utilities to translate resources between platforms.
 pip install resource_translate
 ```
 
-Or with [testing](#testing):
-```shell
-pip install resource_translate[dev]
-```
-
 ---
 
 ## Examples
@@ -191,13 +186,11 @@ $ python
 ---
 
 ## Testing
-Having [installed with testing](#installation), invoke [Pytest](https://docs.pytest.org/en/stable/) from the project root:
 ```shell
-pytest
+pip install pytest[ pytest-cov]
 ```
 
-Or with coverage:
-
+From the project root:
 ```shell
-pytest --cov src --cov-report term-missing
+pytest[ --cov resource_translate --cov-report term-missing]
 ```
