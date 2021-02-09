@@ -190,7 +190,7 @@ $ python
 pip install pytest[ pytest-cov]
 ```
 
-Having cloned the repository, from the project root:
+Having cloned the repository, from the root directory:
 ```shell
 pytest[ --cov resource_translate --cov-report term-missing]
 ```
