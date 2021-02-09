@@ -8,7 +8,7 @@ from .mocks import (
     MockPersonI,
     MockPersonII,
 )
-from .resources import PersonFromMap, PersonFromObj
+from .translators import PersonFromMap, PersonFromObj
 
 
 @pytest.mark.parametrize(
