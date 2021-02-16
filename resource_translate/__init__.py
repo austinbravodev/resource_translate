@@ -134,3 +134,7 @@ def attr(*f_or_keys):
         return f
 
     return dec
+
+
+class AbortTranslation(Exception):
+    pass
